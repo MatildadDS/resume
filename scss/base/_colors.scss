@@ -1,0 +1,42 @@
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+
+// Generic colors
+$green                        : #29f3C3;
+$darkgreen                    : rgba(121, 185, 121, 0.7);
+$lightgreen                   : rgb(189, 247, 228);
+$darkblue                     : #2c3e50;
+$purple                       : rgba(109, 94, 168, 0.7);
+$pink                         : rgba(254, 90, 210, 0.6);
+$lightpink                    : rgba(248, 230, 230, 0.753);
+$grey                         : #888;
+$brown                        : #a52a2a;
+
+$dark                         : #000;
+$bright                       : #ebebeb;
+
+
+// Color Scheme
+$color-primary                : $dark;
+$color-secondary              : $bright;
+$color-highlight              : $darkblue;
+
+// Links
+$color-link-default           : $green;
+
+// Text Selection
+$color-selection              : #fff;
+$color-selection-bg           : $color-primary;
+
+
+// Border color
+$border-tab-color             : #16a085;
+           

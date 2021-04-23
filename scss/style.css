@@ -1,0 +1,1637 @@
+/*
+ * base
+ */
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 50px;
+  padding: 0;
+  background-color: #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 50px;
+  padding: 0;
+  background-color: #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+/**
+ * Breakpoints
+ * =================================
+ */
+/**
+ * Grid
+ * =================================
+ * These variables will control the grid module.
+ *
+ */
+/**
+ * Path variables
+ * =================================
+ */
+/**
+* Border-radius
+* =================================
+*/
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+/**
+ * Flexbox
+  * =================================
+ */
+h2 {
+  font-size: 48px;
+  color: #29f3c3;
+  opacity: 0.8;
+}
+h2:hover {
+  opacity: 1;
+}
+
+/*
+ * components
+ */
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 50px;
+  padding: 0;
+  background-color: #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+/**
+ * Flexbox
+  * =================================
+ */
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+/**
+ * Breakpoints
+ * =================================
+ */
+/**
+ * Grid
+ * =================================
+ * These variables will control the grid module.
+ *
+ */
+/**
+ * Path variables
+ * =================================
+ */
+/**
+* Border-radius
+* =================================
+*/
+/*
+ * helpers
+ */
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+/**
+ * Flexbox
+  * =================================
+ */
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+/**
+ * Breakpoints
+ * =================================
+ */
+/**
+ * Grid
+ * =================================
+ * These variables will control the grid module.
+ *
+ */
+/**
+ * Path variables
+ * =================================
+ */
+/**
+* Border-radius
+* =================================
+*/
+/*
+ * layout
+ */
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 50px;
+  padding: 0;
+  background-color: #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+/**
+ * Flexbox
+  * =================================
+ */
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+/**
+ * Breakpoints
+ * =================================
+ */
+/**
+ * Grid
+ * =================================
+ * These variables will control the grid module.
+ *
+ */
+/**
+ * Path variables
+ * =================================
+ */
+/**
+* Border-radius
+* =================================
+*/
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 50px;
+  padding: 0;
+  background-color: #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+/**
+ * Flexbox
+  * =================================
+ */
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+/**
+ * Breakpoints
+ * =================================
+ */
+/**
+ * Grid
+ * =================================
+ * These variables will control the grid module.
+ *
+ */
+/**
+ * Path variables
+ * =================================
+ */
+/**
+* Border-radius
+* =================================
+*/
+/* navbar & burger menu */
+.navbar-simplon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 100;
+  width: 100%;
+}
+.navbar-simplon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-brand {
+  color: #29f3C3;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 3px;
+  opacity: 0.8;
+}
+.navbar-brand:hover {
+  opacity: 1;
+}
+
+.toggle-holder {
+  cursor: pointer;
+}
+
+#toggle div {
+  height: 3px;
+  margin-bottom: 6px;
+  margin-right: 10px;
+  transition: all 0.3s linear;
+  background-color: #29f3C3;
+  width: 17px;
+  opacity: 0.8;
+  position: relative;
+}
+#toggle div:first-of-type {
+  width: 20px;
+}
+#toggle div:last-of-type {
+  width: 25px;
+}
+
+.on #toggle div {
+  opacity: 0;
+  margin-left: -2px;
+}
+.on #toggle div:first-of-type {
+  transform: rotate3d(0, 0, 1, 45deg) translate(9px, 6px);
+  width: 30px !important;
+  opacity: 1 !important;
+}
+.on #toggle div:last-of-type {
+  transform: rotate3d(0, 0, 1, -45deg) translate(6px, -4px);
+  width: 30px !important;
+  opacity: 1 !important;
+}
+
+.slide-menu {
+  min-width: 300px;
+  max-width: 100%;
+  height: 20vh;
+  padding: 25px 0;
+  position: fixed;
+  right: -100%;
+  top: 50px;
+  z-index: 99;
+  background-color: black;
+  transition: all 0.5s ease-in-out;
+}
+.slide-menu ul {
+  list-style-type: none;
+}
+.slide-menu a {
+  color: #29f3C3;
+  font-weight: bolder;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 4px;
+  opacity: 0.7;
+}
+.slide-menu a:hover {
+  opacity: 1;
+}
+
+.menu-active {
+  right: 0px !important;
+}
+
+/* profile photo section with contact icons */
+.profile {
+  grid-column: 1/2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile img {
+  height: 90vh;
+  position: sticky;
+}
+
+.profile-link {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+.profile-link a {
+  text-decoration: none;
+  color: #29f3C3;
+  font-size: large;
+}
+
+.socials {
+  gap: 40px;
+}
+.socials i {
+  color: #29f3C3;
+  padding-top: 50px;
+  font-size: 40px;
+  opacity: 0.8;
+}
+.socials i:hover {
+  opacity: 1;
+}
+
+.hello {
+  font-size: 48px;
+  font-family: "Roboto Mono", monospace;
+  color: #ebebeb;
+  text-transform: uppercase;
+}
+.hello > span {
+  border-right: 0.05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+.intro {
+  grid-column: 2/3;
+  background-color: black;
+  padding: 200px 70px 100px 70px;
+}
+
+.intro-text p {
+  color: #ebebeb;
+  font-size: 18px;
+}
+
+.chevron-down i {
+  color: #29f3C3;
+  opacity: 0.7;
+  font-size: 60px;
+  position: absolute;
+  animation-duration: 0.5s;
+  animation-name: fleshdown;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/*
+ * pages
+ */
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 50px;
+  padding: 0;
+  background-color: #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+/**
+ * Flexbox
+  * =================================
+ */
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+/**
+ * Breakpoints
+ * =================================
+ */
+/**
+ * Grid
+ * =================================
+ * These variables will control the grid module.
+ *
+ */
+/**
+ * Path variables
+ * =================================
+ */
+/**
+* Border-radius
+* =================================
+*/
+.about {
+  grid-column: 2/3;
+  background-color: black;
+  padding: 0 70px;
+}
+
+.about h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+  color: #29f3c3;
+}
+.about p {
+  color: #29f3c3;
+  font-weight: light;
+  font-size: 18px;
+}
+.about p strong {
+  color: #bdf7e4;
+}
+.about a {
+  color: #bdf7e4;
+}
+
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 50px;
+  padding: 0;
+  background-color: #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+/**
+ * Flexbox
+  * =================================
+ */
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+/**
+ * Breakpoints
+ * =================================
+ */
+/**
+ * Grid
+ * =================================
+ * These variables will control the grid module.
+ *
+ */
+/**
+ * Path variables
+ * =================================
+ */
+/**
+* Border-radius
+* =================================
+*/
+/* Contact */
+/* Animation Contact */
+.contacts {
+  grid-column: 2/3;
+  background-color: black;
+  padding: 40px 70px 40px 70px;
+  height: 1000px;
+}
+
+.contacts h2 {
+  color: #ebebeb;
+}
+
+.container-form {
+  width: 100%;
+}
+
+.form-groupe {
+  position: relative;
+  display: flex;
+  margin-bottom: 45px;
+}
+.form-groupe label {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 16px;
+  transition: 0.4s ease-out;
+}
+.form-groupe input {
+  display: block;
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid #aaa;
+  color: #666;
+  font-size: 16px;
+  transition: 0.4s ease-out;
+}
+.form-groupe:nth-child(4) {
+  margin-bottom: 25px;
+  justify-content: flex-start;
+}
+.form-groupe .button-sub {
+  display: block;
+  width: auto;
+  padding: 15px 40px;
+  border: 1px solid #909090;
+  border-radius: 999px;
+  background-image: linear-gradient(to right, transparent 50%, #414141 50%, #868686);
+  background-size: 200%;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.form-groupe .button-sub:hover {
+  color: #fff;
+  background-position: 100%;
+  border: 1px solid #fff;
+}
+.form-groupe:focus-within label {
+  top: 0px;
+  transform: translateY(-100%);
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border: 3px solid #aaa;
+  border-radius: 3px;
+  padding: 5px;
+  resize: none;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s all ease-out;
+  background: #f1f1f1;
+}
+textarea::placeholder {
+  font-size: 20px;
+  opacity: 0.5;
+}
+textarea:focus {
+  border-color: #29f3c3;
+}
+
+.form-groupe.animation label {
+  top: 0px;
+  transform: translateY(-100%);
+}
+
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 50px;
+  padding: 0;
+  background-color: #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+/**
+ * Flexbox
+  * =================================
+ */
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+/**
+ * Breakpoints
+ * =================================
+ */
+/**
+ * Grid
+ * =================================
+ * These variables will control the grid module.
+ *
+ */
+/**
+ * Path variables
+ * =================================
+ */
+/**
+* Border-radius
+* =================================
+*/
+.experiences {
+  grid-column: 2/3;
+  background-color: black;
+  padding: 40px 70px 40px 70px;
+}
+
+/* -----------------------------------------------*/
+/* style 2 with time line and company images*/
+.experiences {
+  align-items: center;
+  color: #ebebeb;
+}
+.experiences h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+  color: #29f3c3;
+}
+
+.box-timeline {
+  width: 100%;
+  height: 750px;
+  position: relative;
+  padding: 0px 0 50px 0;
+}
+
+.ligne {
+  height: 840px;
+  width: 1px;
+  top: 100px;
+  margin: 30px auto 0;
+  background: #29f3c3;
+}
+
+.rond {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #29f3c3;
+  position: absolute;
+  border: 1px solid #000;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.r1 {
+  top: -5px;
+}
+
+.r2 {
+  top: 215px;
+}
+
+.r3 {
+  top: 435px;
+}
+
+.r4 {
+  top: 655px;
+}
+
+.box {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.box p {
+  line-height: 20px;
+  font-size: 18px;
+  margin: 10px 0 20px 0;
+}
+
+.exp {
+  width: 200px;
+  height: auto;
+  border: 0.5px solid #29f3c3;
+  border-radius: 5px;
+}
+
+.b1 {
+  top: 10px;
+  left: calc(50% - 200px);
+}
+
+.b2 {
+  top: 230px;
+  left: calc(50% + 200px);
+}
+
+.b3 {
+  top: 450px;
+  left: calc(50% - 200px);
+}
+
+.b4 {
+  top: 670px;
+  left: calc(50% + 200px);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #29f3c3;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.company-exp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.text-center {
+  font-size: 18px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.leftside {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-self: end;
+  border: 2px solid #ebebeb;
+  border-right: 2px solid #ebebeb;
+}
+
+.exp-description-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 18px;
+  color: #ebebeb;
+  font-size: 20px;
+}
+p:hover .exp-title {
+  font-style: bold;
+  transform: scale(1.1);
+}
+
+.rightside {
+  width: 80%;
+  height: auto;
+  border: 2px solid #ebebeb;
+}
+
+.exp-description-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #ebebeb;
+  text-align: right;
+}
+
+.exp-space {
+  height: 5rem;
+  width: 50%;
+  border-right: 2px solid #ebebeb;
+}
+
+@media screen and (max-width: 1000px) {
+  .ligne {
+    position: relative;
+    left: 200px;
+  }
+
+  .rond {
+    left: calc(50% + 200px);
+  }
+
+  .box {
+    left: calc(50% - 50px);
+  }
+}
+/* -----------------------------------------------------------------
+      // Following is the modal box for experience details*/
+/* Modal Content/Box */
+/* Modal Content */
+/* The Close Button */
+/* Modal Header */
+/* Modal Body */
+/* Add Animation */
+@keyframes "animatetop" {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.exp-modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.exp-modal p a {
+  color: black;
+}
+
+.modal-content {
+  background-color: #ebebeb;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.exp-modal-content {
+  position: relative;
+  background-color: #ebebeb;
+  margin: auto;
+  border: 1px solid #888;
+  width: 60%;
+  left: 15%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  animation-name: animatetop;
+  animation-duration: 0.5s;
+}
+
+.exp-close {
+  color: #29f3c3;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+}
+.exp-close:hover {
+  color: brown;
+  text-decoration: none;
+  cursor: pointer;
+}
+.exp-close:focus {
+  color: brown;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.exp-modal-header {
+  padding: 8px 16px;
+  background-color: black;
+  color: #29f3c3;
+  display: flex;
+  justify-content: space-between;
+}
+.exp-modal-header h4 {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.exp-modal-body {
+  padding: 2px 16px;
+  color: black;
+}
+.exp-modal-body p {
+  color: black;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+img {
+  height: 4rem;
+  border-radius: 5px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+.div {
+  display: flex;
+  flex-direction: row;
+}
+.div a {
+  padding-right: 2%;
+  color: #000;
+}
+
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 50px;
+  padding: 0;
+  background-color: #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+/**
+ * Flexbox
+  * =================================
+ */
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+/**
+ * Breakpoints
+ * =================================
+ */
+/**
+ * Grid
+ * =================================
+ * These variables will control the grid module.
+ *
+ */
+/**
+ * Path variables
+ * =================================
+ */
+/**
+* Border-radius
+* =================================
+*/
+.projects {
+  grid-column: 2/3;
+  background-color: black;
+  padding: 40px 100px 40px 70px;
+}
+
+/*#project0 {*/
+/*#project1 {*/
+/*#project2 {*/
+/*#project3 {*/
+.projects h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+  color: #ebebeb;
+}
+.projects p {
+  font-size: 16px;
+}
+
+.project-container {
+  position: relative;
+  border: 2px solid #f5f7f6;
+  width: 100%;
+  height: 42vh;
+}
+
+.project-img {
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#project0-info {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
+  height: 88%;
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(121, 185, 121, 0.7);
+}
+
+#project1-info {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
+  height: 88%;
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(254, 90, 210, 0.6);
+}
+
+#project2-info {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
+  height: 88%;
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(109, 94, 168, 0.7);
+}
+
+#project3-info {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
+  height: 88%;
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(248, 230, 230, 0.753);
+}
+#project3-info p {
+  color: black;
+}
+
+.icon-png {
+  height: 40px;
+  width: 40px;
+}
+
+/**
+ * Global color palette
+ * =================================
+ * - Generic colors
+ * - Color scheme
+ * - Common colors
+ * - Links
+ * - Text selection
+ * - Border color
+ */
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 50px;
+  padding: 0;
+  background-color: #000;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 30px;
+}
+
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+/**
+ * Flexbox
+  * =================================
+ */
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+/**
+ * Breakpoints
+ * =================================
+ */
+/**
+ * Grid
+ * =================================
+ * These variables will control the grid module.
+ *
+ */
+/**
+ * Path variables
+ * =================================
+ */
+/**
+* Border-radius
+* =================================
+*/
+.skills {
+  grid-column: 2/3;
+  background-color: black;
+  padding: 40px 70px 40px 70px;
+}
+
+.wrapper {
+  max-width: 50rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.skills h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+  color: #29f3c3;
+}
+
+.tabs {
+  position: relative;
+  margin: 3rem 0;
+  background: #29f3c3;
+  box-shadow: inset 0 10px 0 rgba(255, 255, 255, 0.2), inset 0 2px 2px rgba(0, 0, 0, 0.125);
+  height: 14.75rem;
+}
+.tabs::before {
+  content: "";
+  display: table;
+}
+.tabs::after {
+  content: "";
+  display: table;
+}
+
+.tab {
+  float: left;
+}
+
+.tab-switch {
+  display: none;
+}
+.tab-switch:checked + .tab-label {
+  background: #ebebeb;
+  color: #2c3e50;
+  border-bottom: 0;
+  border-right: 0.125rem solid #ebebeb;
+  transition: all 0.35s;
+  z-index: 1;
+  top: -0.0625rem;
+}
+.tab-switch:checked + label + .tab-content {
+  z-index: 2;
+  opacity: 1;
+  transition: all 0.35s;
+}
+
+.tab-label {
+  position: relative;
+  display: block;
+  line-height: 2.75em;
+  height: 3em;
+  padding: 0 1.618em;
+  background: #29f3c3;
+  box-shadow: inset 0 10px 0 rgba(255, 255, 255, 0.2), inset 0 2px 2px rgba(0, 0, 0, 0.125);
+  border-right: 0.125rem solid #16a085;
+  color: black;
+  cursor: pointer;
+  top: 0;
+  transition: all 0.25s;
+}
+.tab-label:hover {
+  top: -0.25rem;
+  transition: top 0.25s;
+}
+
+.tab-content {
+  position: absolute;
+  z-index: 1;
+  top: 2.75em;
+  left: 0;
+  padding: 40px 80px;
+  background: #ebebeb;
+  color: #2c3e50;
+  border-bottom: 0.25rem solid #bdc3c7;
+  opacity: 0;
+  transition: all 0.35s;
+}
+
+.tab-pane {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-tab {
+  width: fit-content;
+  padding: 6px 15px 6px 15px;
+  margin-bottom: 7px;
+  margin-right: 7px;
+  background-color: #bdf7e4;
+  box-shadow: inset 0 10px 0 rgba(255, 255, 255, 0.2), inset 0 2px 2px rgba(0, 0, 0, 0.125);
+  color: black;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-n {
+  visibility: hidden;
+}
+.logo-n:hover {
+  visibility: initial;
+}
+
+.skills-tab i {
+  width: 50px;
+}
+.skills-tab img {
+  height: 40px;
+}
+
+.wrap {
+  width: 500px;
+  background: #ebebeb;
+  padding: 0px;
+  border-radius: 30px;
+  margin: 20px auto;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 0 5px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(255, 255, 255, 0.45), inset 0 10px 20px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.progress {
+  width: 81%;
+  height: 25px;
+  border-radius: 50px 5px 5px 50px;
+  background-color: #bdf7e4;
+  position: relative;
+  box-shadow: inset 0 10px 0 rgba(255, 255, 255, 0.2), inset 0 2px 2px rgba(0, 0, 0, 0.125);
+  cursor: pointer;
+  margin: 0 0px;
+}
+.progress span {
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.progress_2 {
+  width: 68%;
+  height: 25px;
+  border-radius: 50px 5px 5px 50px;
+  position: relative;
+  background-color: #bdf7e4;
+  box-shadow: inset 0 10px 0 rgba(255, 255, 255, 0.2), inset 0 2px 2px rgba(0, 0, 0, 0.125);
+  cursor: pointer;
+  margin: 0 0px;
+}
+.progress_2 span {
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.progress_3 {
+  width: 74%;
+  height: 25px;
+  border-radius: 50px 5px 5px 50px;
+  background-color: #bdf7e4;
+  position: relative;
+  box-shadow: inset 0 10px 0 rgba(255, 255, 255, 0.2), inset 0 2px 2px rgba(0, 0, 0, 0.125);
+  cursor: pointer;
+  margin: 0 0px;
+}
+.progress_3 span {
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.percentage {
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+.progress-subtitle {
+  color: #000;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,90 @@
+/**
+ * Variables
+ * =================================
+ * - Typography
+ * - Breakpoints
+ * - Paths
+ * - Grid
+ * - App-specific
+ */
+
+
+/**
+ * Typography
+ * =================================
+ *
+ * Base sizes:
+ * Set this in pixels (but do not add px),
+ * the font-size mixin will convert to REMS
+ */
+
+ $font-size-title          : 60;
+ $font-size-h2             : 48;
+ $font-size-subtitle       : 24;
+ $font-size-smalltitle     : 20;
+ $font-size-base           : 18;
+ $font-size-base-smaller   : 16;
+
+ 
+ $letter-spacing           : 4px;
+  
+ 
+ $font-weight-light        : lighter;
+ $font-weight-bold         : bolder;
+
+ 
+ // Font stacks
+ $font-family-serif        : 'Roboto Slab', serif;
+ $font-family-mono         : 'Roboto Mono', monospace;
+ 
+ $font-family-base         : $font-family-mono  ;
+ $font-family-alt          : $font-family-serif;
+ 
+ 
+ /**
+  * Breakpoints
+  * =================================
+  */
+ $breakpoints: (
+     narrow                  : 400px,
+     mid                     : 750px,
+     wide                    : 1000px,
+     huge                    : 1250px
+ );
+ 
+ /**
+  * Grid
+  * =================================
+  * These variables will control the grid module.
+  *
+  */
+ 
+ $grid-column-txt-content  : 2 / 3 ; 
+ $grid-template            : 1fr 2fr; 
+ 
+ //Settings here override & affect the grid classes output
+ $responsive-grid-sizes    : true; // Disable this if you don't want grid sizes for each breakpoint
+ $use-legacy-grid          : true; // Disable this is you on’t want to output .no-flexbox classes for older browsers to use
+ 
+ 
+ /**
+  * Path variables
+  * =================================
+  */
+ $img-path                 : "assets/profile.jpg"; // Usage: background: url('#{$img-path}/img.jpg') 0 0 no-repeat;
+ 
+  /**
+  * Border-radius
+  * =================================
+  */
+
+  $border-skill-tab                : 5rem;
+  $border-wrap                     : 30px;
+  $border-progress                 : 50px 5px 5px 50px;
+  $border-rond                     : 50%;
+  $border-exp                      : 5px;
+  $border-exp-modal-img            : 5px;
+  $border-exp-modal-content        : 10px;
+
+ 
+ 

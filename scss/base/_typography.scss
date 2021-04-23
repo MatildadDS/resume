@@ -1,0 +1,15 @@
+@import "../base/colors";
+@import "../base/reset";
+@import "../helpers/variables";
+@import "../helpers/mixins";
+
+h2 {
+	font-size: 48px;
+	color: #29f3c3;
+	opacity: 0.8;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+

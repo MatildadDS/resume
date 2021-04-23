@@ -1,0 +1,148 @@
+/**
+ * MIXINS
+ * =================================
+
+
+
+
+/**
+ * Breakpoints
+  * =================================
+ */
+
+@mixin media($breakpoint) {
+    @if $breakpoint == narrow {
+      @media only screen and (max-width: 375px) {
+        @content;
+      }
+    }
+
+    @if $breakpoint == mid {
+        @media only screen and (min-width: 750px) {
+          @content;
+        }
+    }
+
+    @if $breakpoint == wide {
+        @media only screen and (min-width: 1000px) {
+          @content;
+        }
+    }
+  
+    @if $breakpoint == huge {
+      @media only screen and (min-width: 1440px) {
+        @content;
+      }
+    }
+
+}
+
+/**
+ * Flexbox
+  * =================================
+ */
+
+@mixin flexbox {
+  display:-ms-flexbox; // ie
+  display:-webkit-flex; // new
+  display:flex; // new
+}
+
+@mixin center-children {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+ // Flex Flow Direction
+// - applies to: flex containers
+// row (default) | row-reverse | column | column-reverse
+@mixin flex-direction($direction: row) {
+    @if $direction == row-reverse {
+      -webkit-box-direction: reverse;
+      -webkit-box-orient: horizontal;
+         -moz-box-direction: reverse;
+         -moz-box-orient: horizontal;
+    } @else if $direction == column {
+      -webkit-box-direction: normal;
+       -webkit-box-orient: vertical;
+         -moz-box-direction: normal;
+          -moz-box-orient: vertical;
+    } @else if $direction == column-reverse {
+      -webkit-box-direction: reverse;
+        -webkit-box-orient: vertical;
+         -moz-box-direction: reverse;
+           -moz-box-orient: vertical;
+    } @else {
+       -webkit-box-direction: normal;
+      -webkit-box-orient: horizontal;
+          -moz-box-direction: normal;
+         -moz-box-orient: horizontal;
+    }
+    -webkit-flex-direction: $direction;
+        -ms-flex-direction: $direction;
+            flex-direction: $direction;
+  }
+  
+  // Flex Line Wrapping
+  // - applies to: flex containers
+  // nowrap | wrap | wrap-reverse
+@mixin flex-wrap($value: wrap) {
+    // No Webkit/FF Box fallback.
+    -webkit-flex-wrap: $value;
+    @if $value == wrap {
+      -ms-flex-wrap: none;
+    } @else {
+      -ms-flex-wrap: $value;
+    }
+    flex-wrap: $value;
+}
+
+  // Axis Alignment
+// - applies to: flex containers
+// flex-start | flex-end | center | space-between | space-around 
+@mixin justify-content($value: center) {
+    @if $value == flex-start {
+      -webkit-box-pack: start;
+         -moz-box-pack: start;
+         -ms-flex-pack: start;
+    } @else if $value == flex-end {
+      -webkit-box-pack: end;
+         -moz-box-pack: end;
+         -ms-flex-pack: end;
+    } @else if $value == space-between {
+      -webkit-box-pack: justify;
+         -moz-box-pack: justify;
+         -ms-flex-pack: justify;
+    } @else if $value == space-around {
+         -ms-flex-pack: distribute;
+    } @else {
+      -webkit-box-pack: $value;
+         -moz-box-pack: $value;
+         -ms-flex-pack: $value;
+    }
+    -webkit-justify-content: $value;
+            justify-content: $value;
+}
+
+  // Cross-axis Alignment
+// - applies to: flex containers
+// flex-start | flex-end | center | baseline | stretch 
+@mixin align-items($value: center) {
+    @if $value == center {
+      -webkit-box-align: start;
+         -moz-box-align: start;
+         -ms-flex-align: start;
+    } @else if $value == center {
+      -webkit-box-align: end;
+         -moz-box-align: end;
+         -ms-flex-align: end;
+    } @else {
+      -webkit-box-align: $value;
+         -moz-box-align: $value;
+         -ms-flex-align: $value;
+    }
+    -webkit-align-items: $value;
+            align-items: $value;
+}

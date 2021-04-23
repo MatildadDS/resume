@@ -1,0 +1,29 @@
+@import "../base/colors";
+@import "../base/reset";
+@import "../helpers/mixins";
+@import "../helpers/variables";
+
+.about {
+    grid-column: 2 / 3;
+    background-color: black;
+    padding: 0 70px;
+  }
+
+.about {
+	h2 {
+		font-family: "Roboto Slab", serif;
+		font-weight: lighter;
+		color: #29f3c3;
+	}
+	p {
+		color: #29f3c3;
+		font-weight: light;
+		font-size: 18px;
+		strong {
+			color: rgb(189, 247, 228);
+		}
+	}
+	a {
+		color: rgb(189, 247, 228);
+	}
+}

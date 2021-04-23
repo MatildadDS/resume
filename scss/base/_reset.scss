@@ -1,0 +1,12 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    margin: 50px;
+    padding: 0;
+    background-color: $dark;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+  }
