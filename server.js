@@ -16,6 +16,7 @@ app.use("/public", express.static(process.cwd() + "/public")); //make public sta
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
+    type: 'OAuth2',
     user: process.env.EMAIL,
     pass: process.env.PASS,
   },
@@ -38,7 +39,7 @@ app.post("/send", (req, res) => {
     Object.keys(fields).forEach(function (property) {
       data[property] = fields[property].toString();
     });
-    
+
     console.log(data);
     const mail = {
       sender: `${data.name} <${data.email}>`,
