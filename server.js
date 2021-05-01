@@ -38,6 +38,7 @@ app.post("/send", (req, res) => {
     Object.keys(fields).forEach(function (property) {
       data[property] = fields[property].toString();
     });
+    
     console.log(data);
     const mail = {
       sender: `${data.name} <${data.email}>`,
@@ -45,6 +46,7 @@ app.post("/send", (req, res) => {
       subject: data.subject,
       text: `${data.name} <${data.email}> \n${data.message}`,
     };
+
     transporter.sendMail(mail, (err, data) => {
       if (err) {
         console.log(err);
