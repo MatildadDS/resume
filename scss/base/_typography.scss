@@ -3,13 +3,122 @@
 @import "../helpers/variables";
 @import "../helpers/mixins";
 
-h2 {
-	font-size: 48px;
-	color: #29f3c3;
-	opacity: 0.8;
-	&:hover {
-		opacity: 1;
-	}
+//MAIN, INTRO & ABOUT SECTION
+
+.intro-text {
+  p {
+    color: $bright;
+    font-size: $font-size-base;
+  }
 }
 
+h2 {
+  font-size: $font-size-h2;
+  font-family: "Roboto Slab", serif;
+  font-weight: lighter;
+  color: $green;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
+}
 
+//ABOUT SECTION
+
+.about {
+ 
+	p {
+	  color: $green;
+	  font-weight: light;
+	  font-size: $font-size-base;
+	  strong {
+		color: $lightgreen;
+	  }
+	}
+	a {
+	  color: $lightgreen;
+	}
+  }
+
+// PROJECTS SESSION
+
+#project3-info {
+	p {
+		color: $dark;
+	}	
+}
+
+//SKILLS
+
+.progress span {
+  font-size: $font-size-small;
+  padding-left: 20px;
+}
+
+.progress_2 span {
+  font-size: $font-size-small;
+  padding-left: 20px;
+}
+
+.progress_3 span {
+  font-size: $font-size-small;
+  padding-left: 20px;
+}
+
+.progress-subtitle {
+  color: $dark;
+  font-size: $font-size-extra-small;
+}
+
+//EXPERIENCES SECTION
+
+.box {
+  p {
+    line-height: 20px;
+    font-size: $font-size-base;
+    margin: 10px 0 20px 0;
+  }
+}
+
+.projects {
+  h2 {
+    color: $bright;
+  }
+  p {
+    font-size: $font-size-base-smaller;
+  }
+}
+
+.text-center {
+  font-size: $font-size-base;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.exp-modal {
+  p {
+    a {
+      color: $dark;
+    }
+  }
+}
+
+.exp-modal-body {
+  p {
+    color: $dark;
+    font-size: $font-size-base-smaller;
+    margin-top: 0;
+  }
+}
+
+h4 {
+  margin: 0px;
+  font-size: 20px;
+}
+
+h6 {
+  font-size: $font-size-base-smaller;
+  margin-top: 16px;
+}

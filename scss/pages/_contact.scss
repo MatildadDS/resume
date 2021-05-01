@@ -8,14 +8,14 @@
 
 .contacts {
     grid-column: 2 / 3;
-    background-color: black;
+    background-color: $dark ;
     padding: 40px 70px 40px 70px;
     height: 1000px;
   }
   
 .contacts {
 	h2 {
-		color: #ebebeb;
+		color: $bright;
 	}
 }
 .container-form {

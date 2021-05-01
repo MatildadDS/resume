@@ -2,3 +2,33 @@
 @import "../base/reset";
 @import "../helpers/mixins";
 @import "../helpers/variables";
+
+.profile-link {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 50px;
+  
+    a {
+      text-decoration: none;
+      color: $green;
+      font-size: large;
+      justify-content: center;
+
+    }
+  }
+  
+  .socials {
+    gap: 40px;
+  
+    i {
+      color: $green;
+      padding-top: 50px;
+      font-size: 40px;
+      opacity: 0.8;
+  
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }

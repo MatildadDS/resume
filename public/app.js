@@ -1,4 +1,5 @@
-//const initMenu = () => {
+// BURGER MENU SECTION
+
     const menuButton = document.querySelector(".toggle-holder");
     const slideMenu = document.querySelector(".slide-menu");
     const toggle = document.getElementById("toggle");
@@ -18,7 +19,8 @@
         }
     });
     
-    //intro
+//H1 ANIMATION SECTION
+
     const typeWriter = selector => {
         const el = document.querySelector(selector)
         const text = el.innerHTML;
@@ -35,7 +37,7 @@
     typeWriter(".hello")
     
     
-    // projects
+// PROJECTS SECTION
     
     const array = [0, 1, 2, 3];
     
@@ -56,13 +58,9 @@
             projectInfo.style.opacity = 0;
         });
     });
+
     
-    
-    //skills
-    
-    
-    
-    // expériences
+// EXPERIENCES SECTION
     
     //timeline
     const allRonds = document.querySelectorAll('.rond');
@@ -122,3 +120,22 @@
         });
     });
     
+
+    //CONTACT FORM
+
+const form = document.getElementById("contact-form");
+
+const formEvent = form.addEventListener("submit", (event) => {
+  event.preventDefault();
+  let mail = new FormData(form);
+  sendMail(mail);
+});
+
+const sendMail = (mail) => {
+  fetch("https://nodemailer-vic-lo.herokuapp.com/send", {
+    method: "post",
+    body: mail,
+  }).then((response) => {
+    return response.json();
+  });
+};

@@ -5,7 +5,7 @@
 
 .experiences {
   grid-column: 2 / 3;
-  background-color: black;
+  background-color: $dark;
   padding: 40px 70px 40px 70px;
 }
 
@@ -13,158 +13,156 @@
 /* style 2 with time line and company images*/
 
 .experiences {
-	align-items: center;
-	color: #ebebeb;
-	h2 {
-		font-family: "Roboto Slab", serif;
-		font-weight: lighter;
-		color: #29f3c3;
-	}
+  align-items: center;
+  color: $bright;
 }
+
 .box-timeline {
-	width: 100%;
-	height: 750px;
-	position: relative;
-	padding: 0px 0 50px 0;
+  width: 100%;
+  height: 750px;
+  position: relative;
+  padding: 0px 0 50px 0;
 }
+
 .ligne {
-	height: 840px;
-	width: 1px;
-	top: 100px;
-	margin: 30px auto 0;
-	background: #29f3c3;
+  height: 840px;
+  width: 1px;
+  top: 100px;
+  margin: 30px auto 0;
+  background: $green;
 }
+
 .rond {
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	background: #29f3c3;
-	position: absolute;
-	border: 1px solid #000;
-	left: 50%;
-	transform: translate(-50%);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 40px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: $green;
+  position: absolute;
+  border: 1px solid #000;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
 }
+
 .r1 {
-	top: -5px;
+  top: -5px;
 }
 .r2 {
-	top: 215px;
+  top: 215px;
 }
 .r3 {
-	top: 435px;
+  top: 435px;
 }
 .r4 {
-	top: 655px;
+  top: 655px;
 }
+
 .box {
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%);
-	p {
-		line-height: 20px;
-		font-size: 18px;
-		margin: 10px 0 20px 0;
-	}
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
+
 .exp {
-	width: 200px;
-	height: auto;
-	border: 0.5px solid #29f3c3;
-	border-radius: 5px;
+  width: 200px;
+  height: auto;
+  border: 0.5px solid $green;
+  border-radius: 5px;
 }
+
 .b1 {
-	top: 10px;
-	left: calc(50% - 200px);
+  top: 10px;
+  left: calc(50% - 200px);
 }
 .b2 {
-	top: 230px;
-	left: calc(50% + 200px);
+  top: 230px;
+  left: calc(50% + 200px);
 }
 .b3 {
-	top: 450px;
-	left: calc(50% - 200px);
+  top: 450px;
+  left: calc(50% - 200px);
 }
 .b4 {
-	top: 670px;
-	left: calc(50% + 200px);
+  top: 670px;
+  left: calc(50% + 200px);
 }
+
 .btn {
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	color: #29f3c3;
-	text-decoration: none;
-	margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: $green;
+  text-decoration: none;
+  margin-top: 10px;
 }
+
 .company-exp {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	cursor: pointer;
-	transition: all 0.2s ease-in-out;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
-.text-center {
-	font-size: 18px;
-	padding-top: 0px;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-}
+
 .leftside {
-	width: 80%;
-	height: auto;
-	display: flex;
-	justify-self: end;
-	border: 2px solid #ebebeb;
-	border-right: 2px solid #ebebeb;
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-self: end;
+  border: 2px solid $bright;
+  border-right: 2px solid $bright;
 }
+
 .exp-description-right {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 p {
-	font-size: 18px;
-	color: #ebebeb;
-	font-size: 20px;
-	&:hover {
-		.exp-title {
-			font-style: bold;
-			transform: scale(1.1);
-		}
-	}
+  font-size: $font-size-base;
+  color: $bright;
+  &:hover {
+    .exp-title {
+      font-style: bold;
+      transform: scale(1.1);
+    }
+  }
 }
+
 .rightside {
-	width: 80%;
-	height: auto;
-	border: 2px solid #ebebeb;
+  width: 80%;
+  height: auto;
+  border: 2px solid $bright;
 }
+
 .exp-description-left {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	border-right: 1px solid #ebebeb;
-	text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid $bright;
+  text-align: right;
 }
+
 .exp-space {
-	height: 5rem;
-	width: 50%;
-	border-right: 2px solid #ebebeb;
+  height: 5rem;
+  width: 50%;
+  border-right: 2px solid $bright;
 }
+
 @media screen and (max-width: 1000px) {
-	.ligne {
-		position: relative;
-		left: 200px;
-	}
-	.rond {
-		left: calc(50% + 200px);
-	}
-	.box {
-		left: calc(50% - 50px);
-	}
+  .ligne {
+    position: relative;
+    left: 200px;
+  }
+  .rond {
+    left: calc(50% + 200px);
+  }
+  .box {
+    left: calc(50% - 50px);
+  }
 }
 
 /* -----------------------------------------------------------------
@@ -175,101 +173,93 @@ p {
 /* Modal Header */
 /* Modal Body */
 /* Add Animation */
-@keyframes "animatetop" {
-	from {
-		top: -300px;
-		opacity: 0;
-	}
-	to {
-		top: 0;
-		opacity: 1;
-	}
+
+@keyframes "animatetop" 
+  from {
+  top: -300px;
+  opacity: 0;
 }
+to {
+  top: 0;
+  opacity: 1;
+}
+
 .exp-modal {
-	display: none;
-	position: fixed;
-	z-index: 100;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	overflow: auto;
-	background-color: rgb(0, 0, 0);
-	background-color: rgba(0, 0, 0, 0.4);
-	p {
-		a {
-			color: black;
-		}
-	}
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
 }
+
 .modal-content {
-	background-color: #ebebeb;
-	margin: 15% auto;
-	padding: 20px;
-	border: 1px solid #888;
-	width: 80%;
+  background-color: $bright;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid $grey;
+  width: 80%;
 }
+
 .exp-modal-content {
-	position: relative;
-	background-color: #ebebeb;
-	margin: auto;
-	border: 1px solid #888;
-	width: 60%;
-	left: 15%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border-radius: 10px;
-	animation-name: animatetop;
-	animation-duration: 0.5s;
+  position: relative;
+  background-color: $bright;
+  margin: auto;
+  border: 1px solid $grey;
+  width: 60%;
+  left: 15%;
+  border-radius: 10px;
+  animation-name: animatetop;
+  animation-duration: 0.5s;
 }
+
 .exp-close {
-	color: #29f3c3;
-	font-size: 24px;
-	font-weight: bold;
-	display: flex;
-	align-items: flex-end;
-	&:hover {
-		color: brown;
-		text-decoration: none;
-		cursor: pointer;
-	}
-	&:focus {
-		color: brown;
-		text-decoration: none;
-		cursor: pointer;
-	}
+  color: $green;
+  font-size: $font-size-subtitle;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+
+  &:hover {
+    color: $brown;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  &:focus {
+    color: $brown;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
+
 .exp-modal-header {
-	padding: 8px 16px;
-	background-color: black;
-	color: #29f3c3;
-	display: flex;
-	justify-content: space-between;
-	h4 {
-		margin: 0px;
-		font-size: 20px;
-	}
+  padding: 8px 16px;
+  background-color: $dark;
+  color: $green;
+  display: flex;
+  justify-content: space-between;
 }
+
 .exp-modal-body {
-	padding: 2px 16px;
-	color: black;
-	p {
-		color: black;
-		font-size: 16px;
-		margin-top: 0;
-	}
+  padding: 2px 16px;
+  color: $dark;
 }
+
 img {
-	height: 4rem;
-	border-radius: 5px;
+  height: 4rem;
+  border-radius: 5px;
 }
-h6 {
-	font-size: 16px;
-}
-.div {
-	display: flex;
-	flex-direction: row;
-	a {
-		padding-right: 2%;
-		color: #000;
-	}
+
+.exp-details {
+  display: flex;
+  flex-direction: row;
+
+  a {
+    padding-right: 2%;
+    color: #000;
+  }
 }
