@@ -132,7 +132,7 @@ const formEvent = form.addEventListener("submit", (event) => {
 });
 
 const sendMail = (mail) => {
-  fetch("https://nodemailer-vic-lo.herokuapp.com/send", {
+  fetch("https://mds-resume.herokuapp.com/send", {
     method: "post",
     body: mail,
   }).then((response) => {
