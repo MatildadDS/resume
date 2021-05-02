@@ -63,9 +63,8 @@
     font-weight: 500;
     cursor: pointer;
     &:hover {
-      color: $bright;
       background-position: 100%;
-      border: 1px solid $bright;
+      border: 3px solid  $green;
     }
   }
   &:focus-within {
