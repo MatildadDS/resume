@@ -38,18 +38,24 @@
   */
 body {
   font-family: "Roboto Mono", monospace;
-  margin: 50px;
+  margin: 0 50px;
   padding: 0;
   background-color: #000;
 }
-
 .main {
   grid-gap: 30px;
+  background-color: #000;
 }
 @supports (display: grid) {
   .main {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    display: block;
+    background-color: #000;
   }
 }
 
@@ -89,18 +95,24 @@ body {
   */
 body {
   font-family: "Roboto Mono", monospace;
-  margin: 50px;
+  margin: 0 50px;
   padding: 0;
   background-color: #000;
 }
-
 .main {
   grid-gap: 30px;
+  background-color: #000;
 }
 @supports (display: grid) {
   .main {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    display: block;
+    background-color: #000;
   }
 }
 
@@ -171,6 +183,11 @@ body {
 .intro-text p {
   color: #ebebeb;
   font-size: 18px;
+}
+@media only screen and (max-width: 500px) {
+  .intro-text p {
+    padding-right: 40px;
+  }
 }
 
 h2 {
@@ -260,6 +277,11 @@ h6 {
   font-size: 16px;
   margin-top: 16px;
 }
+@media only screen and (max-width: 500px) {
+  h6 {
+    margin-top: 26px;
+  }
+}
 
 /*
  * components
@@ -300,18 +322,24 @@ h6 {
   */
 body {
   font-family: "Roboto Mono", monospace;
-  margin: 50px;
+  margin: 0 50px;
   padding: 0;
   background-color: #000;
 }
-
 .main {
   grid-gap: 30px;
+  background-color: #000;
 }
 @supports (display: grid) {
   .main {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    display: block;
+    background-color: #000;
   }
 }
 
@@ -511,18 +539,24 @@ body {
   */
 body {
   font-family: "Roboto Mono", monospace;
-  margin: 50px;
+  margin: 0 50px;
   padding: 0;
   background-color: #000;
 }
-
 .main {
   grid-gap: 30px;
+  background-color: #000;
 }
 @supports (display: grid) {
   .main {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    display: block;
+    background-color: #000;
   }
 }
 
@@ -600,6 +634,12 @@ body {
   font: normal 16px sans-serif;
   padding: 15px 25px 0;
   z-index: 200;
+}
+@media only screen and (max-width: 500px) {
+  .footer-distributed {
+    display: block;
+    width: 600px;
+  }
 }
 .footer-distributed .footer-left p {
   color: #29f3C3;
@@ -712,18 +752,24 @@ body {
   */
 body {
   font-family: "Roboto Mono", monospace;
-  margin: 50px;
+  margin: 0 50px;
   padding: 0;
   background-color: #000;
 }
-
 .main {
   grid-gap: 30px;
+  background-color: #000;
 }
 @supports (display: grid) {
   .main {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    display: block;
+    background-color: #000;
   }
 }
 
@@ -797,12 +843,17 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   background-color: #000;
-  z-index: 100;
+  z-index: 1000;
   width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  .navbar-simplon {
+    width: 580px;
+  }
 }
 .navbar-simplon .navbar-collapse {
   flex-grow: 0;
@@ -867,6 +918,12 @@ body {
   background-color: #000;
   transition: all 0.5s ease-in-out;
 }
+@media only screen and (max-width: 500px) {
+  .slide-menu {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .slide-menu ul {
   list-style-type: none;
 }
@@ -899,6 +956,11 @@ body {
   height: 90vh;
   position: sticky;
 }
+@media only screen and (max-width: 500px) {
+  .profile img {
+    display: none;
+  }
+}
 
 .hello {
   font-size: 48px;
@@ -914,6 +976,13 @@ body {
   grid-column: 2/3;
   background-color: #000;
   padding: 200px 70px 100px 70px;
+}
+@media only screen and (max-width: 500px) {
+  .intro {
+    display: block;
+    width: 600px;
+    padding: 0;
+  }
 }
 
 .chevron-down i {
@@ -974,18 +1043,24 @@ body {
   */
 body {
   font-family: "Roboto Mono", monospace;
-  margin: 50px;
+  margin: 0 50px;
   padding: 0;
   background-color: #000;
 }
-
 .main {
   grid-gap: 30px;
+  background-color: #000;
 }
 @supports (display: grid) {
   .main {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    display: block;
+    background-color: #000;
   }
 }
 
@@ -1058,6 +1133,18 @@ body {
   background-color: #000;
   padding: 0 70px;
 }
+@media only screen and (max-width: 500px) {
+  .about {
+    grid-template-columns: 1fr;
+    width: 600px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about p {
+    padding-right: 40px;
+  }
+}
 
 /**
  * Global color palette
@@ -1095,18 +1182,24 @@ body {
   */
 body {
   font-family: "Roboto Mono", monospace;
-  margin: 50px;
+  margin: 0 50px;
   padding: 0;
   background-color: #000;
 }
-
 .main {
   grid-gap: 30px;
+  background-color: #000;
 }
 @supports (display: grid) {
   .main {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    display: block;
+    background-color: #000;
   }
 }
 
@@ -1180,7 +1273,13 @@ body {
   grid-column: 2/3;
   background-color: #000;
   padding: 40px 70px 40px 70px;
-  height: 1000px;
+}
+@media only screen and (max-width: 500px) {
+  .contacts {
+    display: block;
+    width: 500px;
+    padding: 150px 0 0 0;
+  }
 }
 
 .contacts h2 {
@@ -1194,14 +1293,14 @@ body {
 .form-groupe {
   position: relative;
   display: flex;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 .form-groupe label {
   position: absolute;
   top: 70%;
   left: 0;
   transform: translateY(-50%);
-  color: #aaa;
+  color: #bdc3c7;
   font-size: 16px;
   transition: 0.4s ease-out;
 }
@@ -1212,8 +1311,8 @@ body {
   border: none;
   outline: none;
   background: none;
-  border-bottom: 1px solid #aaa;
-  color: #666;
+  border-bottom: 1px solid #bdc3c7;
+  color: #bdc3c7;
   font-size: 16px;
   transition: 0.4s ease-out;
 }
@@ -1225,19 +1324,18 @@ body {
   display: block;
   width: auto;
   padding: 15px 40px;
-  border: 1px solid #909090;
-  border-radius: 999px;
-  background-image: linear-gradient(to right, transparent 50%, #414141 50%, #868686);
+  border: 3px solid #bdc3c7;
+  border-radius: 5px;
+  background: #bdc3c7;
   background-size: 200%;
-  color: #333;
+  color: #000;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
 }
 .form-groupe .button-sub:hover {
-  color: #fff;
   background-position: 100%;
-  border: 1px solid #fff;
+  border: 3px solid #29f3C3;
 }
 .form-groupe:focus-within label {
   top: 0px;
@@ -1247,22 +1345,22 @@ body {
 textarea {
   width: 100%;
   height: 200px;
-  border: none;
-  border: 3px solid #aaa;
+  border: 3px solid #bdc3c7;
   border-radius: 3px;
   padding: 5px;
   resize: none;
   outline: none;
   font-size: 20px;
   transition: 0.4s all ease-out;
-  background: #f1f1f1;
+  background: #bdc3c7;
 }
 textarea::placeholder {
   font-size: 20px;
   opacity: 0.5;
 }
 textarea:focus {
-  border-color: #29f3c3;
+  background: #ebebeb;
+  border-color: #29f3C3;
 }
 
 .form-groupe.animation label {
@@ -1306,18 +1404,24 @@ textarea:focus {
   */
 body {
   font-family: "Roboto Mono", monospace;
-  margin: 50px;
+  margin: 0 50px;
   padding: 0;
   background-color: #000;
 }
-
 .main {
   grid-gap: 30px;
+  background-color: #000;
 }
 @supports (display: grid) {
   .main {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    display: block;
+    background-color: #000;
   }
 }
 
@@ -1389,13 +1493,17 @@ body {
   grid-column: 2/3;
   background-color: #000;
   padding: 40px 70px 40px 70px;
-}
-
-/* -----------------------------------------------*/
-/* style 2 with time line and company images*/
-.experiences {
   align-items: center;
   color: #ebebeb;
+  margin-top: 600px;
+}
+@media only screen and (max-width: 500px) {
+  .experiences {
+    display: block;
+    width: 600px;
+    padding: 0;
+    margin-top: 800px;
+  }
 }
 
 .box-timeline {
@@ -1412,6 +1520,12 @@ body {
   margin: 30px auto 0;
   background: #29f3C3;
 }
+@media only screen and (max-width: 500px) {
+  .ligne {
+    top: 0;
+    margin: 30px -150px;
+  }
+}
 
 .rond {
   width: 20px;
@@ -1426,6 +1540,11 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 40px;
+}
+@media only screen and (max-width: 500px) {
+  .rond {
+    left: calc(50% + -250px);
+  }
 }
 
 .r1 {
@@ -1544,7 +1663,7 @@ p:hover .exp-title {
   }
 
   .rond {
-    left: calc(50% + 200px);
+    left: calc(50% + -250px);
   }
 
   .box {
@@ -1599,6 +1718,12 @@ to {
   border-radius: 10px;
   animation-name: animatetop;
   animation-duration: 0.5s;
+}
+@media only screen and (max-width: 500px) {
+  .exp-modal-content {
+    left: 0;
+    width: 80%;
+  }
 }
 
 .exp-close {
@@ -1682,18 +1807,24 @@ img {
   */
 body {
   font-family: "Roboto Mono", monospace;
-  margin: 50px;
+  margin: 0 50px;
   padding: 0;
   background-color: #000;
 }
-
 .main {
   grid-gap: 30px;
+  background-color: #000;
 }
 @supports (display: grid) {
   .main {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    display: block;
+    background-color: #000;
   }
 }
 
@@ -1765,6 +1896,19 @@ body {
   grid-column: 2/3;
   background-color: #000;
   padding: 40px 70px 40px 70px;
+}
+@media only screen and (max-width: 500px) {
+  .projects {
+    display: block;
+    width: 550px;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .projects p {
+    font-size: 12px;
+  }
 }
 
 /*#project0 {*/
@@ -1891,18 +2035,24 @@ body {
   */
 body {
   font-family: "Roboto Mono", monospace;
-  margin: 50px;
+  margin: 0 50px;
   padding: 0;
   background-color: #000;
 }
-
 .main {
   grid-gap: 30px;
+  background-color: #000;
 }
 @supports (display: grid) {
   .main {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    display: block;
+    background-color: #000;
   }
 }
 
@@ -1975,6 +2125,13 @@ body {
   background-color: #000;
   padding: 40px 70px 40px 70px;
 }
+@media only screen and (max-width: 500px) {
+  .skills {
+    display: block;
+    width: 600px;
+    padding: 0;
+  }
+}
 
 .wrapper {
   max-width: 50rem;
@@ -1987,7 +2144,6 @@ body {
   margin: 3rem 0;
   background: #29f3C3;
   box-shadow: inset 0 10px 0 rgba(255, 255, 255, 0.2), inset 0 2px 2px rgba(0, 0, 0, 0.125);
-  height: 14.75rem;
 }
 .tabs::before {
   content: "";
@@ -2052,12 +2208,23 @@ body {
   transition: all 0.35s;
   width: auto;
 }
+@media only screen and (max-width: 500px) {
+  .tab-content {
+    width: 400px;
+  }
+}
 
 .tab-pane {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+@media only screen and (max-width: 500px) {
+  .tab-pane {
+    width: 450px;
+    justify-content: left;
+  }
 }
 
 .skill-tab {
@@ -2098,9 +2265,18 @@ body {
   position: relative;
 }
 
+.professional-behaviors {
+  padding-top: 50px;
+}
+
 .progress-bar {
   display: flex;
   flex-direction: row;
+}
+@media only screen and (max-width: 500px) {
+  .progress-bar {
+    width: 450px;
+  }
 }
 
 .progress {
@@ -2113,6 +2289,11 @@ body {
   cursor: pointer;
   margin: 0 0px;
 }
+@media only screen and (max-width: 500px) {
+  .progress span {
+    font-size: 12px;
+  }
+}
 
 .progress_2 {
   width: 68%;
@@ -2124,6 +2305,11 @@ body {
   cursor: pointer;
   margin: 0 0px;
 }
+@media only screen and (max-width: 500px) {
+  .progress_2 span {
+    font-size: 12px;
+  }
+}
 
 .progress_3 {
   width: 74%;
@@ -2134,6 +2320,11 @@ body {
   box-shadow: inset 0 10px 0 rgba(255, 255, 255, 0.2), inset 0 2px 2px rgba(0, 0, 0, 0.125);
   cursor: pointer;
   margin: 0 0px;
+}
+@media only screen and (max-width: 500px) {
+  .progress_3 span {
+    font-size: 12px;
+  }
 }
 
 .percentage {

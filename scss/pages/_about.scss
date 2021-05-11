@@ -7,6 +7,16 @@
   grid-column: 2 / 3;
   background-color: $dark;
   padding: 0 70px;
+
+  @include media("narrow") {
+    grid-template-columns: 1fr;
+    width: 600px;
+    padding: 0;
+  }
+
+  p {
+    @include media("narrow") {
+      padding-right: 40px;
+    }
+  }
 }
-
-

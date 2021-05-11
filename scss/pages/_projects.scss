@@ -7,6 +7,18 @@
   grid-column: 2 / 3;
   background-color: $dark;
   padding: 40px 70px 40px 70px;
+
+  @include media("narrow") {
+    display: block;
+    width: 550px;
+    padding: 0;
+  }
+}
+
+.projects p {
+  @include media("narrow") {
+    font-size: 12px;
+  }
 }
 
 /*#project0 {*/
@@ -42,7 +54,6 @@
   left: 0px;
   background-color: $darkgreen;
   overflow: hidden;
-
 }
 
 #project1-info {
@@ -60,7 +71,6 @@
   right: 0px;
   background-color: $pink;
   overflow: hidden;
-
 }
 
 #project2-info {
@@ -93,7 +103,6 @@
   position: absolute;
   top: 0px;
   background-color: $lightpink;
-
 }
 
 .icon-png {

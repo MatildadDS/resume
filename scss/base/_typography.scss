@@ -9,6 +9,10 @@
   p {
     color: $bright;
     font-size: $font-size-base;
+
+      @include media("narrow") {
+        padding-right: 40px;
+      }
   }
 }
 
@@ -121,4 +125,7 @@ h4 {
 h6 {
   font-size: $font-size-base-smaller;
   margin-top: 16px;
+    @include media('narrow'){
+      margin-top: 26px
+    }
 }

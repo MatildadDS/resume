@@ -7,14 +7,16 @@
   grid-column: 2 / 3;
   background-color: $dark;
   padding: 40px 70px 40px 70px;
-}
-
-/* -----------------------------------------------*/
-/* style 2 with time line and company images*/
-
-.experiences {
   align-items: center;
   color: $bright;
+  margin-top: 600px;
+
+  @include media("narrow") {
+    display: block;
+    width: 600px;
+    padding: 0;
+    margin-top: 800px;
+  }
 }
 
 .box-timeline {
@@ -30,6 +32,10 @@
   top: 100px;
   margin: 30px auto 0;
   background: $green;
+  @include media("narrow") {
+    top: 0;
+    margin: 30px -150px;
+  }
 }
 
 .rond {
@@ -45,6 +51,9 @@
   justify-content: center;
   align-items: center;
   font-size: 40px;
+  @include media("narrow") {
+    left: calc(50% + -250px);
+  }
 }
 
 .r1 {
@@ -158,7 +167,7 @@ p {
     left: 200px;
   }
   .rond {
-    left: calc(50% + 200px);
+    left: calc(50% + -250px);
   }
   .box {
     left: calc(50% - 50px);
@@ -214,6 +223,10 @@ to {
   border-radius: 10px;
   animation-name: animatetop;
   animation-duration: 0.5s;
+    @include media("narrow") {
+      left: 0;
+      width: 80%;
+    }
 }
 
 .exp-close {

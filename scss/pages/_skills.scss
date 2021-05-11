@@ -7,6 +7,11 @@
   grid-column: 2 / 3;
   background-color: $dark;
   padding: 40px 70px 40px 70px;
+  @include media("narrow") {
+    display: block;
+    width: 600px;
+    padding: 0;
+  }
 }
 
 .wrapper {
@@ -20,7 +25,6 @@
   margin: 3rem 0;
   background: $green;
   box-shadow: $box-shadow;
-  height: 14.75rem;
 
   &::before {
     content: "";
@@ -96,6 +100,10 @@
   opacity: 0;
   transition: all 0.35s;
   width: auto;
+
+  @include media("narrow") {
+    width: 400px;
+  }
 }
 
 .tab-pane {
@@ -103,6 +111,10 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+    @include media("narrow") {
+      width: 450px;
+      justify-content: left;
+    }
 }
 
 .skill-tab {
@@ -146,9 +158,17 @@
   position: relative;
 }
 
+.professional-behaviors {
+  padding-top: 50px;
+}
+
 .progress-bar {
   display: flex;
   flex-direction: row;
+
+  @include media("narrow") {
+    width: 450px;
+  }
 }
 
 .progress {
@@ -160,6 +180,12 @@
   box-shadow: $box-shadow;
   cursor: pointer;
   margin: 0 0px;
+
+  @include media("narrow") {
+    span {
+      font-size: 12px;
+    }
+  }
 }
 
 .progress_2 {
@@ -171,6 +197,12 @@
   box-shadow: $box-shadow;
   cursor: pointer;
   margin: 0 0px;
+
+  @include media("narrow") {
+    span {
+      font-size: 12px;
+    }
+  }
 }
 
 .progress_3 {
@@ -182,6 +214,12 @@
   box-shadow: $box-shadow;
   cursor: pointer;
   margin: 0 0px;
+
+  @include media("narrow") {
+    span {
+      font-size: 12px;
+    }
+  }
 }
 
 .percentage {
