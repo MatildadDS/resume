@@ -172,6 +172,11 @@
     animation-name: fleshdown;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+
+      @include media('narrow'){
+        top: 75%;
+        left: 100%;
+      }
   }
 }
 

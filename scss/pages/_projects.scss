@@ -54,6 +54,12 @@
   left: 0px;
   background-color: $darkgreen;
   overflow: hidden;
+
+    @include media('narrow'){
+      visibility: visible;
+      opacity: 1;
+      overflow: visible;
+    }
 }
 
 #project1-info {
@@ -61,7 +67,7 @@
   opacity: 0;
   transition: visibility 0.3s, opacity 0.3s linear;
   height: 100%;
-  width: 45%;
+  width: 50%;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -71,6 +77,11 @@
   right: 0px;
   background-color: $pink;
   overflow: hidden;
+    @include media('narrow'){
+      visibility: visible;
+      opacity: 1;
+      overflow: visible;
+    }
 }
 
 #project2-info {
@@ -88,6 +99,11 @@
   left: 0px;
   background-color: $purple;
   overflow: hidden;
+    @include media('narrow'){
+      visibility: visible;
+      opacity: 1;
+      overflow: visible;
+    }
 }
 
 #project3-info {
@@ -103,6 +119,11 @@
   position: absolute;
   top: 0px;
   background-color: $lightpink;
+    @include media('narrow'){
+      visibility: visible;
+      opacity: 1;
+      overflow: visible;
+    }
 }
 
 .icon-png {
